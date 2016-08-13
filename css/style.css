@@ -5,7 +5,22 @@ body{
     box-sizing: border-box;
 }
 div{        
-    display: inline-block 
+    display: inline-block ;
+}
+h1{
+    text-align: left;
+    margin-left: 5vh;
+    display: inline;
+}
+li{
+    margin: auto 5vh  ;
+}
+
+.first{
+    margin-left: 5%;
+}
+.second{
+    margin-left: 5%;
 }
 .box{    
     width: 30%;    
@@ -20,12 +35,15 @@ div{
     margin: auto 5px auto 10px;
     border: 2px solid black;    
     background: lightslategrey;
-            margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 @media screen and (min-width:768px) and (max-width:991px){
     div{
        display: inline-block;
+    }
+    .first{
+        margin: 0;
     }
     .box{
         width: 48%;
@@ -51,6 +69,9 @@ div{
 @media screen and (max-width:767px){
     div{
        display: inline-block;
+    }
+        .first{
+        margin: 0;
     }
     .box{
         width: 100%;
