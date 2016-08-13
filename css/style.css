@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    color: white
+}
+nav{
+    background-color: #542312;
+    position: fixed;
+    width: 100%;
+}
+h1{
+    text-align: center
+}
